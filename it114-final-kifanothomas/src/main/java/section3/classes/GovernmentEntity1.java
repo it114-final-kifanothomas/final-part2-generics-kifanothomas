@@ -4,7 +4,7 @@ import section2.classes.Capital;
 import section2.interfaces.HasCapital;
 import section2.interfaces.HasName;
 
-public class GovernmentEntity1<T> implements HasCapital, HasName {
+public class GovernmentEntity1<T> implements HasCapital<Capital>, HasName {
 
 	public void getname() {
 		// TODO Auto-generated method stub
